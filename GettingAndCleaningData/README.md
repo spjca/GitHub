@@ -43,6 +43,7 @@ into the new variables testSet and trainSet.
 
 13) Names of measurements are altered for easier readability.
 
-14) Mean of activities for each participant are calculated into new variable finalSet.
+14) Mean of activities for each participant are calculated into new variable finalSet using dplyr's
+group_by and summarise_each functions.
 
 15) write.table is called to output the final product: tidySet.txt
